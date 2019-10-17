@@ -5,6 +5,7 @@ The goal of this repository to demonstrate application of NLP libraries for typi
 English and Polish.
 
 Libraries:
+
 - spacy
 - NLTK
 
@@ -17,4 +18,4 @@ Running examples
   conda activate nlp
   jupyter notebooks
 
-Then go to `examples/` folder.
+Then go to ``examples/`` folder.
