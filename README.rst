@@ -1,5 +1,5 @@
-NLP libraries for English and Polish
-====================================
+Demo of NLP libraries for English and Polish
+============================================
 
 The goal of this repository to demonstrate application of NLP libraries for typical NLP tasks in
 English and Polish.
