@@ -6,8 +6,11 @@ English and Polish.
 
 Libraries:
 
-- spacy
-- NLTK
+- `spaCy`_
+- `NLTK`_
+
+.. _spaCy: https://spacy.io/
+.. _NLTK: https://www.nltk.org/
 
 Running examples
 ----------------
