@@ -8,10 +8,12 @@ dependencies:
   - spacy
   - spacy-lookups-data
   - spacy-model-en_core_web_sm
-  - spacy
   - jupyterlab
   - pip
   - nltk
   - pip:
       - https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.0/en_core_web_sm-2.2.0.tar.gz
       - https://storage.googleapis.com/spacy-pl-public-models/pl_model-1.0.0.tar.gz
+      - pystempel
+      - http://zil.ipipan.waw.pl/SpacyPL?action=AttachFile&do=get&target=pl_spacy_model-0.0.5.tar.gz
+
