@@ -29,16 +29,3 @@ Running examples
   jupyter notebooks
 
 Then go to ``examples/`` folder.
-
-Running lemmapl
----------------
-
-.. code:: console
-
-  docker build . -t lemmapl && docker run -d --name lemmapl -p 5000:5000 -t lemmapl
-
-To try:
-
-.. code:: console
-
-  curl http://localhost:5000 --data "Ala ma kota." -v -H "Content-Type: text/plain"
