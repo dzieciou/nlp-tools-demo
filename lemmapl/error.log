@@ -1,0 +1,305 @@
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2019 09:20:03] "GET / HTTP/1.1" 405 -
+ERROR:lemmatize_server:Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "lemmatize_server.py", line 18, in lemmatize
+    f.write(text)
+TypeError: write() argument must be str, not bytes
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2019 09:20:12] "POST / HTTP/1.1" 500 -
+ERROR:lemmatize_server:Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "lemmatize_server.py", line 18, in lemmatize
+    f.write(text)
+TypeError: write() argument must be str, not bytes
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2019 09:20:31] "POST / HTTP/1.1" 500 -
+ERROR:lemmatize_server:Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "lemmatize_server.py", line 18, in lemmatize
+    with open(input_file, 'w') as f:
+TypeError: write() argument must be str, not bytes
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2019 09:23:17] "POST / HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ERROR:lemmatize_server:Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "lemmatize_server.py", line 15, in lemmatize
+    logging.log("text:" + text)
+TypeError: can only concatenate str (not "bytes") to str
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2019 09:23:30] "POST / HTTP/1.1" 500 -
+ERROR:lemmatize_server:Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "lemmatize_server.py", line 15, in lemmatize
+    logging.log("text:" + text)
+TypeError: can only concatenate str (not "bytes") to str
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2019 09:26:13] "POST / HTTP/1.1" 500 -
+ERROR:lemmatize_server:Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "lemmatize_server.py", line 15, in lemmatize
+    input_file = 'text_input.txt'
+TypeError: can only concatenate str (not "bytes") to str
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2019 09:26:41] "POST / HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+ERROR:lemmatize_server:Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "lemmatize_server.py", line 18, in lemmatize
+    f.write(text)
+TypeError: write() argument must be str, not bytes
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2019 09:27:22] "POST / HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+DEBUG:root:<Request 'http://localhost:5000/' [POST]>
+ERROR:lemmatize_server:Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "lemmatize_server.py", line 20, in lemmatize
+    f.write(text)
+TypeError: write() argument must be str, not bytes
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2019 09:29:03] "POST / HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+DEBUG:root:b'Ala ma kota'
+ERROR:lemmatize_server:Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "lemmatize_server.py", line 20, in lemmatize
+    f.write(text)
+TypeError: write() argument must be str, not bytes
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2019 09:30:48] "POST / HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2019 10:21:28] "GET / HTTP/1.1" 405 -
+DEBUG:root:b'Ala ma kota.'
+ERROR:lemmatize_server:Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "lemmatize_server.py", line 20, in lemmatize
+    # TODO it would be better to parse XCES instead
+TypeError: write() argument must be str, not bytes
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2019 10:22:03] "POST / HTTP/1.1" 500 -
+DEBUG:root:b'Ala ma kota.'
+ERROR:lemmatize_server:Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "lemmatize_server.py", line 20, in lemmatize
+    # TODO it would be better to parse XCES instead
+TypeError: write() argument must be str, not bytes
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2019 10:23:01] "POST / HTTP/1.1" 500 -
+ERROR:werkzeug:127.0.0.1 - - [25/Oct/2019 10:26:27] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x9d')
+DEBUG:root:b'Ala ma kota.'
+ERROR:lemmatize_server:Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "lemmatize_server.py", line 20, in lemmatize
+    # TODO it would be better to parse XCES instead
+TypeError: write() argument must be str, not bytes
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2019 10:26:50] "POST / HTTP/1.1" 500 -
+DEBUG:root:b'Ala ma kota.'
+ERROR:lemmatize_server:Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "lemmatize_server.py", line 20, in lemmatize
+    # TODO it would be better to parse XCES instead
+TypeError: write() argument must be str, not bytes
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2019 10:29:49] "POST / HTTP/1.1" 500 -
+DEBUG:root:b'Ala ma kota.'
+ERROR:lemmatize_server:Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "lemmatize_server.py", line 20, in lemmatize
+    # TODO it would be better to parse XCES instead
+TypeError: write() argument must be str, not bytes
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2019 10:30:04] "POST / HTTP/1.1" 500 -
+DEBUG:root:b'Ala ma kota.'
+ERROR:lemmatize_server:Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "lemmatize_server.py", line 20, in lemmatize
+    lemmatize_file(input_file=input_file, output_file=output_file)
+TypeError: write() argument must be str, not bytes
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2019 10:32:52] "POST / HTTP/1.1" 500 -
+DEBUG:root:b'Ala ma kota.'
+ERROR:lemmatize_server:Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\OEM\Miniconda3\envs\nlp\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "lemmatize_server.py", line 20, in lemmatize
+    lemmatize_file(input_file=input_file, output_file=output_file)
+TypeError: write() argument must be str, not bytes
+INFO:werkzeug:127.0.0.1 - - [25/Oct/2019 10:33:42] "POST / HTTP/1.1" 500 -
